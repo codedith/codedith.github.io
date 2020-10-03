@@ -311,6 +311,7 @@ p{
 }
 .contact-options {
     color: #ffbd39;
+    margin: 5px 10px 5px 10px;
 }
 .contact-options:hover {
     color: #ffbd39;
@@ -324,3 +325,70 @@ p{
     color: white;
 }
 /********************* contact div css end **********************/
+
+/********************* Media Query css start **********************/
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .about-img {
+        width: 40vh;
+        height: 40vh;
+        background-image: url(../images/about-me.jpg);
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-left: 10px;
+    }
+    .about-txt {
+        font-size: 4rem;
+        font-weight: bolder !important;
+        color: #1a1a1a;
+        text-align: center;
+    }
+    .about-me-txt {
+        font-size: 2rem;
+        font-weight: bolder !important;
+        color: white;
+        margin-left: -170px;
+    }
+    .resume-txt {
+        font-size: 4rem;
+        font-weight: bolder !important;
+        color: #1a1a1a;
+        text-align: center;
+    }
+    .resume-me-txt {
+        font-size: 2rem;
+        font-weight: bolder !important;
+        color: white;
+        margin-left: -250px;
+    }
+    .service-txt {
+        font-size: 4rem;
+        font-weight: bolder !important;
+        color: #1a1a1a;
+        text-align: center;
+    }
+    .service-me-txt {
+        font-size: 2rem;
+        font-weight: bolder !important;
+        color: white;
+        margin-left: -190px;
+    }
+    .contact-txt {
+        font-size: 4rem;
+        font-weight: bolder !important;
+        color: #1a1a1a;
+        text-align: center;
+    }
+    .contact-me-txt {
+        font-size: 2rem;
+        font-weight: bolder !important;
+        color: white;
+        margin-left: -220px;
+    }
+    .contact-desc {
+        color: white;
+        font-size: 1.5rem;
+        margin-bottom: 50px;
+    }
+}
+/********************* Media Query css end **********************/
